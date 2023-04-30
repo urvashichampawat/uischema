@@ -1,7 +1,51 @@
+/*
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
 }
 
+.editor-container,
+.preview-container {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+}
+
+.editor-container {
+  background-color: #f5f5f5;
+}
+
+.preview-container {
+  background-color: #ffffff;
+}
+.App {
+  text-align: center;
+}*/
+
+.App {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.editor-container,
+.preview-container {
+  width: 50%;
+  height: 100%;
+  overflow: auto;
+  padding: 20px;
+}
+
+.editor-container {
+  background-color: #f5f5f5;
+}
+
+.preview-container {
+  background-color: #ffffff;
+}
+/*
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +80,4 @@
     transform: rotate(360deg);
   }
 }
+*/
